@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/node:17
 
-    working_directory: ~/repo
+    working_directory: ~/my-app
 
     steps:
       - checkout
